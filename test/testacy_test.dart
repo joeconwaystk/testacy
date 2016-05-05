@@ -12,7 +12,7 @@ void main() {
 
   test("Test things", () async {
     await new Future.delayed(new Duration(seconds: 5));
-    expect(true, false);
+    expect(true, true);
     await new Future.delayed(new Duration(seconds: 5));
     expect(true, false);
   });
