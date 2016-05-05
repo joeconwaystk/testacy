@@ -14,7 +14,7 @@ void main() {
     print("1");
     await new Future.delayed(new Duration(seconds: 5));
     print("2");
-    expect(true, true);
+    expect(true, false);
     await new Future.delayed(new Duration(seconds: 5));
     print("3");
     expect(true, true);
