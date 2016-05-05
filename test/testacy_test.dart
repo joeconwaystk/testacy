@@ -20,6 +20,6 @@ void main() {
     await new Future.delayed(new Duration(seconds: 1));
     expect(true, true);
     await new Future.delayed(new Duration(seconds: 5));
-    expect(true, false);
+    expect(true, true);
   });
 }
